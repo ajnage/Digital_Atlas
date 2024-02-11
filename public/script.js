@@ -75,7 +75,7 @@ function displayCountryInfo(countryData, container) {
     <p><strong>Demonym:</strong>${demonym}</p>
     <p><strong>Independent:</strong>${countryData.independent ? 'Yes' : 'No'}</p>
     <p><strong>UN Member:</strong>${countryData.unMember ? 'Yes' : 'No'}</p>
-    <p><strong>UN Member:</strong><a href="${countryData.maps.googleMaps}">LINK</a></p>
+    <p><strong>Google Link:</strong><a href="${countryData.maps.googleMaps}">LINK</a></p>
     `
 
     
